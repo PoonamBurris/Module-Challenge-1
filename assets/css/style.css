@@ -3,40 +3,48 @@
     padding: 0;
     margin: 0;
 }
-
+/* Element Selectors select all of that element type */
 body {
+        /* Sets background color */
     background-color: #d9dcd6;
 }
-
+/* Class Selectors select all elements with that class */
 .header {
+    /* Sets padding on all sides to 20px */
     padding: 20px;
+     /* Font-family property specifies a list of fonts to be used in order of priority */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
 .header h1 {
+    /* Sets display of all elements with class selector to inline */
     display: inline-block;
+    /* Font-size property sets the size of a font */
     font-size: 48px;
 }
 
 .header h1 .seo {
+    /* Uses hex codes to define color */
     color: #d9dcd6;
 }
 
 .header div {
     padding-top: 15px;
+    /* Sets right margin to 20px */
     margin-right: 20px;
-    float: right;
+    float: right; /* The element floats to the right of its container*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
 .header div ul {
-    list-style-type: none;
+    list-style-type: none;/* The list-style-type:none property is used to remove the markers/bullets*/
 }
 
 .header div ul li {
+    /* Sets display of all elements with class selector to inline */
     display: inline-block;
     margin-left: 25px;
 }
@@ -60,7 +68,7 @@ p {
 }
 
 .float-left {
-    float: left;
+    float: left;/* The element floats to the left of its container*/
     margin-right: 25px;
 }
 
@@ -103,7 +111,7 @@ p {
 
 .benefit-lead h3 {
     margin-bottom: 10px;
-    text-align: center;
+    text-align: center; /* The text-align property specifies the horizontal alignment of text in an element, in this case center. */
 }
 
 .benefit-brand h3 {
@@ -119,7 +127,9 @@ p {
 .benefit-lead img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 150px;/* The max-width property defines the maximum width of an element to 150px.
+
+    */
 }
 
 .benefit-brand img {
@@ -129,7 +139,7 @@ p {
 }
 
 .benefit-cost img {
-    display: block;
+    display: block;  /* Sets display of all elements with class selector to block */
     margin: 10px auto;
     max-width: 150px;
 }
@@ -162,7 +172,9 @@ p {
 }
 
 .search-engine-optimization img {
-    max-height: 200px;
+    max-height: 200px;/* The max-height property defines the maximum height of an element to 200px.
+
+    */
 }
 
 .online-reputation-management img {
